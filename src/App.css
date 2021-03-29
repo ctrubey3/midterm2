@@ -1,3 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #f1f1f1;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  padding: 40px 0;
+}
+.c-list__Funks {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  width: 20%;
+  max-width: 100px;
+}
+
+
+.c-list__Funk {
+  background-color: darkblue;
+  padding: 20px;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 10px #ccc;
+  position: relative;
+}
+
 body {
   margin: 0;
   display: inline-list-item;
@@ -41,7 +77,7 @@ code {
 }
 
 .App-link {
-  color: black;
+  color: white;
 }
 
 @keyframes App-logo-spin {
